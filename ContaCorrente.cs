@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AtividadeOO
 {
-    internal class ContaCorrente : Conta
+    public class ContaCorrente : Conta
     {
         public ContaCorrente(string banco, int agencia, int conta, decimal saldo, decimal limite) : base(banco, agencia, conta, saldo)
         {
